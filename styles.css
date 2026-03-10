@@ -1,49 +1,52 @@
 :root {
   /* Light Mode Colors */
-  --background-light: #556B2F;
-  --section-bg-light: #F5F5F5;
-  --text-light: #000000;
-  --link-light: #7B4F9D;
-  --button-light: #7B4F9D;
-  --button-hover-light: #432b55;
-  --button-text-light: #FFFFFF;
-  --image-bg-light: #FFFFFF;
-  --border-light: #e1e1e1;
-  --contact-icon-light: #000000;
+  --background-light: #e8f7f5;
+  --section-bg-light: #f4fbfa;
+  --text-light: #223234;
+  --link-light: #2fb5a3;
+  --button-light: #2fb5a3;
+  --button-hover-light: #1f8a7c;
+  --button-text-light: #ffffff;
+
+  /* Accent color */
+  --border-light: #d8cfa6;
+  --contact-icon-light: #2c7da0;
+
+  /* Image / card background */
+  --image-bg-light: #ffffff;
 
   /* Shadow colors */
-  --shadow-color-light: rgba(0, 0, 0, 0.1);
+  --shadow-color-light: rgba(0, 0, 0, 0.08);
   --shadow-color-hover-light: rgba(0, 0, 0, 0.15);
 
-  /* Shadow definitions */
   --shadow-standard-light: 0 4px 8px var(--shadow-color-light);
   --shadow-hover-light: 0 10px 20px var(--shadow-color-hover-light);
   --shadow-top-light: 0 -4px 8px var(--shadow-color-light);
 
   /* Dark Mode Colors */
-  --background-dark: #2D3339;
-  --section-bg-dark: #38471f;
-  --text-dark: #FFFFFF;
-  --link-dark: #6DABFF;
-  --button-dark: #6DABFF;
-  --button-hover-dark: #004099;
-  --button-text-dark: #FFFFFF;
-  --card-bg-dark: #2D3339;
-  --image-bg-dark: #f2f2f2;
-  --border-dark: #2D3339;
-  --underline-dark: #FFFFFF;
-  --contact-icon-dark: #FFFFFF;
+  --background-dark: #1e2f31;
+  --section-bg-dark: #24393b;
+  --text-dark: #ffffff;
+  --link-dark: #4fd6c6;
+  --button-dark: #4fd6c6;
+  --button-hover-dark: #2fb5a3;
+  --button-text-dark: #0f1c1e;
+
+  --card-bg-dark: #24393b;
+  --image-bg-dark: #edf7f6;
+  --border-dark: #cbbf8e;
+  --underline-dark: #4fd6c6;
+  --contact-icon-dark: #4fd6c6;
 
   /* Shadow colors (dark) */
   --shadow-color-dark: rgba(0, 0, 0, 0.25);
   --shadow-color-hover-dark: rgba(0, 0, 0, 0.35);
 
-  /* Shadow definitions (dark) */
   --shadow-standard-dark: 0 4px 8px var(--shadow-color-dark);
   --shadow-hover-dark: 0 10px 20px var(--shadow-color-hover-dark);
   --shadow-top-dark: 0 -4px 8px var(--shadow-color-dark);
 
-  /* Standardized Spacing */
+  /* Spacing */
   --space-xs: 8px;
   --space-sm: 16px;
   --space-md: 24px;
